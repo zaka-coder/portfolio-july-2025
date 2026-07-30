@@ -1,598 +1,853 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- STYLESHEET -->
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="assets/css/tabler-icons.css">
-  <!-- FONTS -->
-  <link rel="preload" href="assets/fonts/rajdhani-500.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-  <link rel="preload" href="assets/fonts/rajdhani-600.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-  <link rel="preload" href="assets/fonts/rajdhani-700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-  <!-- PRIMARY META TAGS -->
-  <meta name="description"
-    content="I'm Zaka Ullah, A Freelance Full Stack Web Developer And Computer Science Graduate. I Build Responsive, Modern Web Applications With Node.js, React.js, Laravel, And More.">
-  <meta name="keywords"
-    content="Zaka Ullah, iamzaka, Developer, Web Developer, Full Stack Developer, Freelance Web Developer, Web Designer, Freelance Web Designer, Portfolio, Developer Portfolio, Personal Portfolio, Node.js, React.js, Laravel, Express.js, MySQL, HTML, CSS, JavaScript">
-  <meta name="author" content="Zaka Ullah">
-  <meta name="robots" content="index, follow">
-  <!-- CANONICAL URL -->
-  <link rel="canonical" href="index.html">
-  <!-- SITEMAP -->
-  <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
-  <!-- OPEN GRAPH META TAGS -->
-  <meta property="og:site_name" content="Zaka Ullah">
-  <meta property="og:locale" content="en_IN">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Zaka Ullah - Freelance Full Stack Web Developer">
-  <meta property="og:description"
-    content="I'm Zaka Ullah, A Freelance Full Stack Web Developer And Computer Science Graduate. I Build Responsive, Modern Web Applications With Node.js, React.js, Laravel, And More.">
-  <meta property="og:image" content="https://zakariotech.studio/og-img.png">
-  <meta property="og:url" content="https://zakariotech.studio/">
-  <!-- TWITTER CARD META TAGS -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:creator" content="@iamzaka">
-  <meta name="twitter:site" content="@iamzaka">
-  <meta name="twitter:title" content="Zaka Ullah - Freelance Full Stack Web Developer">
-  <meta name="twitter:description"
-    content="I'm Zaka Ullah, A Freelance Full Stack Web Developer And Computer Science Graduate. I Build Responsive, Modern Web Applications With Node.js, React.js, Laravel, And More.">
-  <meta name="twitter:image" content="https://sayedanowar.netlify.app/og-img.png">
-  <!-- STRUCTURED DATA MARKUP -->
-  <script type="application/ld+json">
-        {
-          "@context": "https://schema.org/",
-          "@type": "Person",
-          "name": "Zaka Ullah",
-          "url": "https://zakariotech.studio/",
-          "image": "https://sayedanowar.netlify.app/og-img.png",
-          "sameAs": [
-            "https://www.facebook.com/zakatalks",
-            "https://www.instagram.com/zakara_11/",
-            "https://x.com/",
-            "https://github.com/iamzaka",
-            "https://zakariotech.studio/"
-          ],
-          "jobTitle": "Full Stack Web Developer"  
-        }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/css/tabler-icons.css" />
+    <!-- FONTS -->
+    <link
+      rel="preload"
+      href="assets/fonts/rajdhani-500.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="assets/fonts/rajdhani-600.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="assets/fonts/rajdhani-700.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <!-- PRIMARY META TAGS -->
+    <meta
+      name="description"
+      content="I'm Zaka Ullah, A Freelance Full Stack Web Developer And Computer Science Graduate. I Build Responsive, Modern Web Applications With Node.js, React.js, Laravel, And More."
+    />
+    <meta
+      name="keywords"
+      content="Zaka Ullah, iamzaka, Developer, Web Developer, Full Stack Developer, Freelance Web Developer, Web Designer, Freelance Web Designer, Portfolio, Developer Portfolio, Personal Portfolio, Node.js, React.js, Laravel, Express.js, MySQL, HTML, CSS, JavaScript"
+    />
+    <meta name="author" content="Zaka Ullah" />
+    <meta name="robots" content="index, follow" />
+    <!-- CANONICAL URL -->
+    <link rel="canonical" href="index.html" />
+    <!-- SITEMAP -->
+    <link
+      rel="sitemap"
+      type="application/xml"
+      title="Sitemap"
+      href="sitemap.xml"
+    />
+    <!-- OPEN GRAPH META TAGS -->
+    <meta property="og:site_name" content="Zaka Ullah" />
+    <meta property="og:locale" content="en_IN" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Zaka Ullah - Freelance Full Stack Web Developer"
+    />
+    <meta
+      property="og:description"
+      content="I'm Zaka Ullah, A Freelance Full Stack Web Developer And Computer Science Graduate. I Build Responsive, Modern Web Applications With Node.js, React.js, Laravel, And More."
+    />
+    <meta property="og:image" content="https://zakariotech.studio/og-img.png" />
+    <meta property="og:url" content="https://zakariotech.studio/" />
+    <!-- TWITTER CARD META TAGS -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@iamzaka" />
+    <meta name="twitter:site" content="@iamzaka" />
+    <meta
+      name="twitter:title"
+      content="Zaka Ullah - Freelance Full Stack Web Developer"
+    />
+    <meta
+      name="twitter:description"
+      content="I'm Zaka Ullah, A Freelance Full Stack Web Developer And Computer Science Graduate. I Build Responsive, Modern Web Applications With Node.js, React.js, Laravel, And More."
+    />
+    <meta
+      name="twitter:image"
+      content="https://sayedanowar.netlify.app/og-img.png"
+    />
+    <!-- STRUCTURED DATA MARKUP -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Zaka Ullah",
+        "url": "https://zakariotech.studio/",
+        "image": "https://sayedanowar.netlify.app/og-img.png",
+        "sameAs": [
+          "https://www.facebook.com/zakatalks",
+          "https://www.instagram.com/zakara_11/",
+          "https://x.com/",
+          "https://github.com/iamzaka",
+          "https://zakariotech.studio/"
+        ],
+        "jobTitle": "Full Stack Web Developer"
+      }
     </script>
-  <!-- FAVICON -->
-  <link rel="shortcut icon" class="favicon" href="./favicon/android-chrome-512x512.png" type="image/x-icon">
-  <link rel="icon" type="image/svg+xml" href="./favicon/favicon.ico">
-  <!-- ANDROID ICONS -->
-  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon_v2.ico">
-  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon_v2.ico">
-  <link rel="icon" type="image/png" sizes="36x36" href="./favicon/favicon_v2.ico">
-  <link rel="icon" type="image/png" sizes="48x48" href="./favicon/favicon_v2.ico">
-  <link rel="icon" type="image/png" sizes="64x64" href="./favicon/favicon_v2.ico">
-  <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon_v2.ico">
-  <link rel="icon" type="image/png" sizes="128x128" href="./favicon/favicon_v2.ico">
-  <link rel="icon" type="image/png" sizes="144x144" href="./favicon/favicon_v2.ico">
-  <link rel="icon" type="image/png" sizes="192x192" href="./favicon/favicon_v2.ico">
-  <link rel="icon" type="image/png" sizes="512x512" href="./favicon/favicon_v2.ico">
-  <!-- APPLE TOUCH ICONS -->
-  <link rel="apple-touch-icon" sizes="57x57" href="./favicon/favicon_v2.ico">
-  <link rel="apple-touch-icon" sizes="60x60" href="./favicon/favicon_v2.ico">
-  <link rel="apple-touch-icon" sizes="72x72" href="./favicon/favicon_v2.ico">
-  <link rel="apple-touch-icon" sizes="76x76" href="./favicon/favicon_v2.ico">
-  <link rel="apple-touch-icon" sizes="114x114" href="./favicon/favicon_v2.ico">
-  <link rel="apple-touch-icon" sizes="120x120" href="./favicon/favicon_v2.ico">
-  <link rel="apple-touch-icon" sizes="144x144" href="./favicon/favicon_v2.ico">
-  <link rel="apple-touch-icon" sizes="152x152" href="./favicon/favicon_v2.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/favicon_v2.ico">
+    <!-- FAVICON -->
+    <link
+      rel="shortcut icon"
+      class="favicon"
+      href="./favicon/android-chrome-512x512.png"
+      type="image/x-icon"
+    />
+    <link rel="icon" type="image/svg+xml" href="./favicon/favicon.ico" />
+    <!-- ANDROID ICONS -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon_v2.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon_v2.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="36x36"
+      href="./favicon/favicon_v2.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="48x48"
+      href="./favicon/favicon_v2.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="64x64"
+      href="./favicon/favicon_v2.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./favicon/favicon_v2.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="128x128"
+      href="./favicon/favicon_v2.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="144x144"
+      href="./favicon/favicon_v2.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./favicon/favicon_v2.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="./favicon/favicon_v2.ico"
+    />
+    <!-- APPLE TOUCH ICONS -->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./favicon/favicon_v2.ico"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./favicon/favicon_v2.ico"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./favicon/favicon_v2.ico"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./favicon/favicon_v2.ico"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./favicon/favicon_v2.ico"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./favicon/favicon_v2.ico"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./favicon/favicon_v2.ico"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./favicon/favicon_v2.ico"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/favicon_v2.ico"
+    />
 
-  <!-- MANIFEST -->
-  <link rel="manifest" href="favicon/manifest.json">
-  <title>Zaka Ullah - Freelance Full Stack Web Developer</title>
-</head>
+    <!-- MANIFEST -->
+    <link rel="manifest" href="favicon/manifest.json" />
+    <title>Zaka Ullah - Freelance Full Stack Web Developer</title>
+  </head>
 
-<body>
-  <!-- NAVBAR -->
-  <nav class="navbar">
-    <a href="index.html" class="logo">Zaka</a>
-    <ul class="nav-links">
-      <li class="home-mt"><a class="nav-link active" href="#home">Home</a></li>
-      <li><a class="nav-link" href="#about">About</a></li>
-      <li><a class="nav-link" href="#projects">Projects</a></li>
-      <li><a class="nav-link" href="#skills">Skills</a></li>
-      <li><a class="nav-link" href="#education">Education</a></li>
-      <li><a class="nav-link" href="#contact">Contact</a></li>
-    </ul>
-    <span class="menu-toggle"><i class="ti ti-category-filled"></i></span>
-  </nav>
-  <!-- HERO SECTION -->
-  <section class="hero" id="home">
-    <div>
-      <img src="./assets/img/Profile.jpg" alt="" width="80px" height="80px" class="profile-pic">
-    </div>
-    <a href="https://www.upwork.com/freelancers/~0139c465bc67f85f07?mp_source=share" class="badge" target="_blank">
-      <span class="indicator p-1"></span> Available For Work
-      <i class="ti ti-chevron-right ang-right"></i>
-    </a>
-    <h1>Full Stack Developer</h1>
-    <p class="subheading">Hello, I'm Zaka Ullah, A Freelance Full Stack Web Developer</p>
-    <p class="subheading auto-type"></p>
-    <div class="hero-btns-sec">
-      <button class="hero-btn open-drawer-btn">Let's Connect
-        <i class="ti ti-heart-handshake arr-right"></i>
-      </button>
-      <div class="drawer-overlay"></div>
-      <div class="drawer">
-        <div class="drag-handle"></div>
-        <div class="drawer-links">
-          <a href="https://www.facebook.com/zakatalks" class="drawer-icon">
-            <img src="assets/svg/facebook.png" alt="Facebook">
-          </a>
-          <a href="https://www.instagram.com/zakara_11?utm_source=ig_web_button_share_sheet&igsh=MXJvN3huenM1MjE0ZA=="
-            class="drawer-icon">
-            <img src="assets/svg/Instagram.png" alt="Instagram">
-          </a>
-          <a href="https://www.linkedin.com/in/engrzakakhan/" class="drawer-icon">
-            <img src="assets/svg/linkedin.png" alt="LinkedIn">
-          </a>
-          <a href="https://www.upwork.com/freelancers/~0139c465bc67f85f07?mp_source=share" class="drawer-icon">
-            <img src="assets/svg/upwork.png" alt="upwork">
-          </a>
-        </div>
-        <a href="mailto:zakakhan12628@gmail.com" class="drawer-btn">
-          <img src="assets/svg/mail.svg" alt="Gmail">
-          zakakhan12628@gmail.com
-        </a>
-        <a href="https://wa.me/923478657454" class="drawer-btn">
-          <img src="assets/svg/whatsapp.svg" alt="chat">
-          Chat Now
-        </a>
-        <p>Or Send A Message</p>
-        <form method="POST" class="contact-form" id="form">
-          <input type="hidden" name="access_key" value="02f43a7b-d99e-46a6-9fad-bec22fc8ac2e">
-          <input type="hidden" name="from_name" value="Portfolio">
-          <input type="hidden" name="subject" value="New Message">
-          <input type="email" name="email" class="input-field" placeholder="Your Email" required>
-          <textarea name="message" class="input-field" placeholder="Your Message" rows="4" required></textarea>
-          <button type="submit" class="send-btn">Send Message</button>
-          <div class="result" id="result"></div>
-        </form>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <a href="index.html" class="logo">Zaka</a>
+      <ul class="nav-links">
+        <li class="home-mt">
+          <a class="nav-link active" href="#home">Home</a>
+        </li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#education">Education</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+      <span class="menu-toggle"><i class="ti ti-category-filled"></i></span>
+    </nav>
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+      <div>
+        <img
+          src="./assets/img/Profile.jpg"
+          alt=""
+          width="80px"
+          height="80px"
+          class="profile-pic"
+        />
       </div>
-      <span class="email" id="email-text"><i id="copy-icon" class="ti ti-copy copy-btn"></i>
-        zakakhan12628@gmail.com
-      </span>
-    </div>
-  </section>
-  <!-- ABOUT SECTION -->
-  <section class="about" id="about">
-    <div class="main-title">
-      <div class="sec-title">
-        <span>ABOUT ME</span>
-        <h2>About Me</h2>
-      </div>
-      <p>MORE ABOUT ME</p>
-    </div>
-    <div class="about-details">
-      <div class="about-content">
-        <h3>Hi there! I'm <span class="gradient-text">ZAKA</span></h3>
-        <p>
-          I'm Zaka Ullah, A Freelance Full Stack Web Developer And Computer Science Graduate. With 4 Years Of
-          Experience In Web Development, I Build Clean, Responsive, And Dynamic Web Applications Using Node.js,
-          React.js, Laravel, HTML, CSS, JavaScript, Bootstrap, Tailwind Css, And Laravel Blade.
-        </p>
-        <p>
-          I'm Open To Full-time Roles And Freelance
-          Opportunities Across Frontend, Backend, And API Development. I'm Naturally Curious, Quietly Confident,
-          And Always Pushing My Limits Every Day To Become A Better Developer.
-        </p>
-        <div class="about-links">
-          <a href="https://www.facebook.com/zakatalks" class="about-icon" data-tooltip="Facebook">
-            <img src="assets/svg/facebook.png" alt="Facebook">
-          </a>
-          <a href="https://www.instagram.com/zakara_11?utm_source=ig_web_button_share_sheet&igsh=MXJvN3huenM1MjE0ZA=="
-            class="about-icon" data-tooltip="Instagram">
-            <img src="assets/svg/Instagram.png" alt="Instagram">
-          </a>
-          <a href="https://www.linkedin.com/in/engrzakakhan/" class="about-icon" data-tooltip="GitHub">
-            <img src="assets/svg/linkedin.png" alt="GitHub">
-          </a>
-          <a href="https://www.upwork.com/freelancers/~0139c465bc67f85f07?mp_source=share" class="about-icon"
-            data-tooltip="Upwork">
-            <img src="assets/svg/upwork.png" alt="Upwork">
-          </a>
-        </div>
-      </div>
-      <div class="about-image">
-        <img src="assets/img/avatar.png" alt="Zaka Ullah" loading="lazy">
-      </div>
-    </div>
-  </section>
-  <!-- PROJECTS SECTION -->
-  <section class="projects" id="projects">
-    <div class="main-title">
-      <div class="sec-title">
-        <span>PORTFOLIO</span>
-        <h2>Projects</h2>
-      </div>
-      <p>FEATURED CASE STUDIES</p>
-    </div>
-    <div class="project-container">
-      <div class="project-card">
-        <img src="assets/img/P-1.png" alt="P-1" loading="lazy">
-        <h3 class="project-title">Golikely</h3>
-        <p class="project-description">
-          A Creator Monetization Platform Where Users Generate Affiliate Links, Share Them Across Channels, Track
-          Performance, and Earn Commissions Through Brand Partnerships.
-        </p>
-        <div class="tags">
-          <span class="tag">HTML</span>
-          <span class="tag">CSS</span>
-          <span class="tag">JavaScript</span>
-          <span class="tag">Affiliate Marketing</span>
-          <span class="tag">Analytics</span>
-          <span class="tag">Creator Platform</span>
-        </div>
-        <div class="buttons">
-          <a href="https://www.golikely.com/" class="btn" target="_blank">
-            <img src="assets/svg/external-link.svg" alt="Link">
-            Live Website
-          </a>
-        </div>
-      </div>
-      <div class="project-card">
-        <img src="assets/img/P-2.png" alt="P-2" loading="lazy">
-        <h3 class="project-title">Glocce</h3>
-        <p class="project-description">
-          A Premium Beauty E-commerce Experience Focused on Curated Skincare Collections, Product Discovery,
-          and a Modern Shopping Journey with Sustainability Messaging.
-        </p>
-        <div class="tags">
-          <span class="tag">HTML</span>
-          <span class="tag">CSS</span>
-          <span class="tag">JavaScript</span>
-          <span class="tag">E-commerce</span>
-          <span class="tag">Beauty</span>
-          <span class="tag">Product Catalog</span>
-        </div>
-        <div class="buttons">
-          <a href="https://www.glocce.com/" class="btn" target="_blank">
-            <img src="assets/svg/external-link.svg" alt="Link">
-            Live Website
-          </a>
-        </div>
-      </div>
-      <div class="project-card">
-        <img src="assets/img/P-3.png" alt="P-3" loading="lazy">
-        <h3 class="project-title">Race LookUp</h3>
-        <p class="project-description">
-          A Custom Web Platform for RaceLookup to List and Promote Sporting Events, Clubs, and Travel Deals with a
-          Clean,
-          Responsive Design.
-        </p>
-        <div class="tags">
-          <span class="tag">HTML</span>
-          <span class="tag">CSS</span>
-          <span class="tag">JavaScript</span>
-          <span class="tag">bootstrap</span>
-          <span class="tag">PhP</span>
-          <span class="tag">Laravel</span>
-        </div>
-        <div class="buttons">
-          <a href="https://racelookup.com/" class="btn">
-            <img src="assets/svg/external-link.svg" alt="Link">
-            Live Website
-          </a>
-        </div>
-      </div>
-      <div class="project-card">
-        <img src="assets/img/P-4.png" alt="P-4" loading="lazy">
-        <h3 class="project-title">Gem's Harbor</h3>
-        <p class="project-description">
-          A Custom Auction Platform for Buying and Selling Verified Gemstones, Featuring Secure Listings, Bidding, and a
-          Responsive Design.
-        </p>
-        <div class="tags">
-          <span class="tag">HTML</span>
-          <span class="tag">CSS</span>
-          <span class="tag">JavaScript</span>
-          <span class="tag">Bootstrap</span>
-          <span class="tag">Php</span>
-          <span class="tag">Laravel</span>
-        </div>
-        <div class="buttons">
-          <a href="https://gemsharbor.com/" class="btn" target="_blank">
-            <img src="assets/svg/external-link.svg" alt="Link">
-            Live Website
-          </a>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <img src="assets/img/P-6.png" alt="P-4" loading="lazy">
-        <h3 class="project-title">Mesis.pk [School Management]</h3>
-        <p class="project-description">
-          A Custom Educational Portal (Mesis.pk) Featuring Secure User Login, Course Access, and Dashboard in a Clean,
-          Responsive
-          Interface.
-        </p>
-        <div class="tags">
-          <span class="tag">HTML</span>
-          <span class="tag">CSS</span>
-          <span class="tag">JavaScript</span>
-          <span class="tag">Bootstrap</span>
-          <span class="tag">Php</span>
-          <span class="tag">Laravel</span>
-        </div>
-        <div class="buttons">
-          <a href="https://lwt.mesis.pk/login" class="btn" target="_blank">
-            <img src="assets/svg/external-link.svg" alt="Link">
-            Live Website
-          </a>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <img src="assets/img/P-8.png" alt="Bluetic" loading="lazy">
-        <h3 class="project-title">Bluetic</h3>
-        <p class="project-description">
-          An E-learning Platform Focused on Practical E-commerce Training, Featuring Amazon FBA and Private Label
-          Courses, Student Dashboard Access, and Self-paced Learning Content.
-        </p>
-        <div class="tags">
-          <span class="tag">HTML</span>
-          <span class="tag">CSS</span>
-          <span class="tag">JavaScript</span>
-          <span class="tag">E-learning</span>
-          <span class="tag">Amazon FBA</span>
-          <span class="tag">Course Platform</span>
-        </div>
-        <div class="buttons">
-          <a href="#" class="btn" target="_blank">
-            <img src="assets/svg/external-link.svg" alt="Link">
-            Live Website
-          </a>
-        </div>
-      </div>
-      <div class="project-card">
-        <img src="assets/img/P-9.png" alt="CanMeds" loading="lazy">
-        <h3 class="project-title">CanMeds Question Bank</h3>
-        <p class="project-description">
-          A Smart Medical Exam Preparation Platform with a comprehensive question bank, adaptive study planning,
-          and real-time performance tracking to help students improve targeted weak areas.
-        </p>
-        <div class="tags">
-          <span class="tag">HTML</span>
-          <span class="tag">CSS</span>
-          <span class="tag">JavaScript</span>
-          <span class="tag">EdTech</span>
-          <span class="tag">Question Bank</span>
-          <span class="tag">Analytics</span>
-        </div>
-        <div class="buttons">
-          <a href="#" class="btn" target="_blank">
-            <img src="assets/svg/external-link.svg" alt="Link">
-            Live Website
-          </a>
-        </div>
-      </div>
-      <div class="project-card">
-        <img src="assets/img/P-5.png" alt="P-4" loading="lazy">
-        <h3 class="project-title">AceMed Experts</h3>
-        <p class="project-description">
-          A Custom Educational Support Platform for Medical Students, Offering 24/7 Help with Quizzes, Assignments, and
-          Exams.
-        </p>
-        <div class="tags">
-          <span class="tag">HTML</span>
-          <span class="tag">CSS</span>
-          <span class="tag">JavaScript</span>
-          <span class="tag">Bootstrap</span>
-          <span class="tag">Php</span>
-          <span class="tag">Laravel</span>
-        </div>
-        <div class="buttons">
-          <a href="https://acemedexpert.com/" class="btn" target="_blank">
-            <img src="assets/svg/external-link.svg" alt="Link">
-            Live Website
-          </a>
-        </div>
-      </div>
-      <div class="project-card">
-        <img src="assets/img/P-7.png" alt="Link2Audio" loading="lazy">
-        <h3 class="project-title">Link2Audio</h3>
-        <p class="project-description">
-          A Link-to-MP3 Converter and Downloader that supports multiple platforms, allowing users to quickly convert
-          video or social links into downloadable MP3 audio files.
-        </p>
-        <div class="tags">
-          <span class="tag">HTML</span>
-          <span class="tag">CSS</span>
-          <span class="tag">JavaScript</span>
-          <span class="tag">MP3 Converter</span>
-          <span class="tag">Downloader</span>
-          <span class="tag">Web Tool</span>
-        </div>
-        <div class="buttons">
-          <a href="#" class="btn" target="_blank">
-            <img src="assets/svg/external-link.svg" alt="Link">
-            Live Website
-          </a>
-        </div>
-      </div>
-
-    </div>
-  </section>
-  <!-- SKILLS SECTION -->
-  <section class="skills" id="skills">
-    <div class="main-title">
-      <div class="sec-title">
-        <span>SKILLS</span>
-        <h2>Skills</h2>
-      </div>
-      <p>I CONSTANTLY TRY TO IMPROVE</p>
-    </div>
-    <div class="tech-stacks">
-
-      <div class="tech-item">
-        <img src="assets/svg/javascript.svg" alt="JavaScript" loading="lazy">
-        JavaScript
-      </div>
-      <div class="tech-item">
-        <img src="assets/svg/nodejs.svg" alt="Node.js" loading="lazy">
-        Node.js
-      </div>
-      <div class="tech-item">
-        <img src="assets/svg/react.svg" alt="React" loading="lazy">
-        React.js
-      </div>
-      <div class="tech-item">
-        <img src="assets/svg/expressjs.svg" alt="Express.js" loading="lazy">
-        Express.js
-      </div>
-      <div class="tech-item">
-        <img src="assets/svg/tailwindcss.svg" alt="TailwindCss" loading="lazy">
-        Tailwind CSS
-      </div>
-      <div class="tech-item">
-        <img src="assets/svg/laravel.svg" alt="Laravel" loading="lazy">
-        Laravel Blade
-      </div>
-      <div class="tech-item">
-        <img src="assets/svg/mysql.svg" alt="MySql" loading="lazy">
-        MySql
-      </div>
-      <div class="tech-item">
-        <img src="assets/svg/git.svg" alt="Git" loading="lazy">
-        Git
-      </div>
-      <div class="tech-item">
-        <img src="assets/svg/github.svg" alt="GitHub" loading="lazy">
-        GitHub
-      </div>
-      <div class="tech-item">
-        <img src="assets/svg/gitlab.svg" alt="GitLab" loading="lazy">
-        GitLab
-      </div>
-      <div class="tech-item">
-        <img src="assets/svg/html5.svg" alt="HTML" loading="lazy">
-        HTML
-      </div>
-      <div class="tech-item">
-        <img src="assets/svg/css3.svg" alt="CSS" loading="lazy">
-        CSS
-      </div>
-      <div class="tech-item">
-        <img src="assets/svg/bootstrap.svg" alt="Bootstrap" loading="lazy">
-        Bootstrap
-      </div>
-      <div class="tech-item">
-        <img src="assets/svg/bootstrap-studio.svg" alt="Bootstrap Studio" loading="lazy">
-        Bootstrap Studio
-      </div>
-      <div class="tech-item">
-        <img src="assets/svg/vscode.svg" alt="VScode" loading="lazy">
-        VScode
-      </div>
-      <div class="tech-item">
-        <img src="assets/svg/canva.svg" alt="Canva" loading="lazy">
-        Canva
-      </div>
-      <div class="tech-item">
-        <img src="assets/svg/wordpress.svg" alt="Wordpress" loading="lazy">
-        Wordpress
-      </div>
-    </div>
-  </section>
-  <!-- MARQUEE -->
-  <marquee onmouseover="this.stop()" onmouseout="this.start()" behavior="stop" direction="left" scrollamount="9">
-    ✦ INTERACTIVE ✦ SECURE ✦ RELIABLE ✦ ENGAGING ✦ ACCESSIBLE ✦ RESPONSIVE ✦ DYNAMIC ✦ SCALABLE ✦ SEARCH OPTIMIZED
-  </marquee>
-  <!-- EDUCATION SECTION -->
-  <section class="education" id="education">
-    <div class="main-title">
-      <div class="sec-title">
-        <span>EDUCATION</span>
-        <h2>Education</h2>
-      </div>
-      <p>ACADEMIC MILESTONES</p>
-    </div>
-    <div class="education-section">
-      <div class="education-container">
-        <i class="ti ti-school"></i>
-        <h3 class="degree">Bachelor Of Computer Science</h3>
-        <p class="date">2022 - 2026</p>
-        <p class="school">University of Engineering and Technology Peshawar</p>
-        <span class="education-line"></span>
-      </div>
-      <div class="education-container">
-        <i class="ti ti-school"></i>
-        <h3 class="degree">Higher Secondary Education (FSC)</h3>
-        <p class="date">2019 - 2021</p>
-        <p class="school">Peshawar Model Degree College</p>
-        <span class="education-line"></span>
-      </div>
-      <div class="education-container">
-        <i class="ti ti-school"></i>
-        <h3 class="degree">Secondary School Education</h3>
-        <p class="date">2017 - 2019</p>
-        <p class="school">Government High School Puran Shangla Kpk</p>
-      </div>
-    </div>
-  </section>
-  <!-- CONTACT SECTION -->
-  <section class="contact" id="contact">
-    <div class="main-title">
-      <div class="sec-title">
-        <span>CONTACT</span>
-        <h2>Contact</h2>
-      </div>
-      <p>GET IN TOUCH</p>
-    </div>
-    <div class="contact-description">
-      <p>
-        I'm Available For Full-time Roles & Freelance Projects.<br>My Inbox Is Always Open,<br>
-        Whether You Have A Question<br>Or<br>Just Want To Say Hi,<br>I'll Try My Best To Get Back To You!
-      </p>
-      <a href="https://wa.me/923478657454" class="contact-btn" target="_blank" rel="noopener">
-        Let's Chat
-        <i class="ti ti-send-2"></i>
+      <a
+        href="https://www.upwork.com/freelancers/~0139c465bc67f85f07?mp_source=share"
+        class="badge"
+        target="_blank"
+      >
+        <span class="indicator p-1"></span> Available For Work
+        <i class="ti ti-chevron-right ang-right"></i>
       </a>
-    </div>
-  </section>
-  <!-- FOOTER -->
-  <footer>
-    <div class="footer-content">
-      <div class="footer-links">
-        <a href="https://www.facebook.com/zakatalks" class="footer-icon" data-tooltip="Facebook">
-          <img src="assets/svg/facebook.png" alt="Facebook">
-        </a>
-        <a href="https://www.instagram.com/zakara_11?utm_source=ig_web_button_share_sheet&igsh=MXJvN3huenM1MjE0ZA=="
-          class="footer-icon" data-tooltip="Instagram">
-          <img src="assets/svg/Instagram.png" alt="Instagram">
-        </a>
-        <a href="https://www.linkedin.com/in/engrzakakhan/" class="footer-icon" data-tooltip="GitHub">
-          <img src="assets/svg/linkedin.png" alt="GitHub">
-        </a>
-        <a href="https://www.upwork.com/freelancers/~0139c465bc67f85f07?mp_source=share" class="footer-icon"
-          data-tooltip="Gmail">
-          <img src="assets/svg/upwork.png" alt="Gmail">
+      <h1>Full Stack Developer</h1>
+      <p class="subheading">
+        Hello, I'm Zaka Ullah, A Freelance Full Stack Web Developer
+      </p>
+      <p class="subheading auto-type"></p>
+      <div class="hero-btns-sec">
+        <button class="hero-btn open-drawer-btn">
+          Let's Connect
+          <i class="ti ti-heart-handshake arr-right"></i>
+        </button>
+        <div class="drawer-overlay"></div>
+        <div class="drawer">
+          <div class="drag-handle"></div>
+          <div class="drawer-links">
+            <a href="https://www.facebook.com/zakatalks" class="drawer-icon">
+              <img src="assets/svg/facebook.png" alt="Facebook" />
+            </a>
+            <a
+              href="https://www.instagram.com/zakara_11?utm_source=ig_web_button_share_sheet&igsh=MXJvN3huenM1MjE0ZA=="
+              class="drawer-icon"
+            >
+              <img src="assets/svg/Instagram.png" alt="Instagram" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/engrzakakhan/"
+              class="drawer-icon"
+            >
+              <img src="assets/svg/linkedin.png" alt="LinkedIn" />
+            </a>
+            <a
+              href="https://www.upwork.com/freelancers/~0139c465bc67f85f07?mp_source=share"
+              class="drawer-icon"
+            >
+              <img src="assets/svg/upwork.png" alt="upwork" />
+            </a>
+          </div>
+          <a href="mailto:zakakhan12628@gmail.com" class="drawer-btn">
+            <img src="assets/svg/mail.svg" alt="Gmail" />
+            zakakhan12628@gmail.com
+          </a>
+          <a href="https://wa.me/923478657454" class="drawer-btn">
+            <img src="assets/svg/whatsapp.svg" alt="chat" />
+            Chat Now
+          </a>
+          <p>Or Send A Message</p>
+          <form method="POST" class="contact-form" id="form">
+            <input
+              type="hidden"
+              name="access_key"
+              value="a2ec3c18-60c5-4c61-b1e4-9b06e51ca1ce"
+            />
+            <input type="hidden" name="from_name" value="Portfolio" />
+            <input type="hidden" name="subject" value="New Message" />
+            <input
+              type="email"
+              name="email"
+              class="input-field"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              class="input-field"
+              placeholder="Your Message"
+              rows="4"
+              required
+            ></textarea>
+            <button type="submit" class="send-btn">Send Message</button>
+            <div class="result" id="result"></div>
+          </form>
+        </div>
+        <span class="email" id="email-text"
+          ><i id="copy-icon" class="ti ti-copy copy-btn"></i>
+          zakakhan12628@gmail.com
+        </span>
+      </div>
+    </section>
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+      <div class="main-title">
+        <div class="sec-title">
+          <span>ABOUT ME</span>
+          <h2>About Me</h2>
+        </div>
+        <p>MORE ABOUT ME</p>
+      </div>
+      <div class="about-details">
+        <div class="about-content">
+          <h3>Hi there! I'm <span class="gradient-text">ZAKA</span></h3>
+          <p>
+            I'm Zaka Ullah, A Freelance Full Stack Web Developer And Computer
+            Science Graduate. With 4 Years Of Experience In Web Development, I
+            Build Clean, Responsive, And Dynamic Web Applications Using Node.js,
+            React.js, Laravel, HTML, CSS, JavaScript, Bootstrap, Tailwind Css,
+            And Laravel Blade.
+          </p>
+          <p>
+            I'm Open To Full-time Roles And Freelance Opportunities Across
+            Frontend, Backend, And API Development. I'm Naturally Curious,
+            Quietly Confident, And Always Pushing My Limits Every Day To Become
+            A Better Developer.
+          </p>
+          <div class="about-links">
+            <a
+              href="https://www.facebook.com/zakatalks"
+              class="about-icon"
+              data-tooltip="Facebook"
+            >
+              <img src="assets/svg/facebook.png" alt="Facebook" />
+            </a>
+            <a
+              href="https://www.instagram.com/zakara_11?utm_source=ig_web_button_share_sheet&igsh=MXJvN3huenM1MjE0ZA=="
+              class="about-icon"
+              data-tooltip="Instagram"
+            >
+              <img src="assets/svg/Instagram.png" alt="Instagram" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/engrzakakhan/"
+              class="about-icon"
+              data-tooltip="GitHub"
+            >
+              <img src="assets/svg/linkedin.png" alt="GitHub" />
+            </a>
+            <a
+              href="https://www.upwork.com/freelancers/~0139c465bc67f85f07?mp_source=share"
+              class="about-icon"
+              data-tooltip="Upwork"
+            >
+              <img src="assets/svg/upwork.png" alt="Upwork" />
+            </a>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="assets/img/avatar.png" alt="Zaka Ullah" loading="lazy" />
+        </div>
+      </div>
+    </section>
+    <!-- PROJECTS SECTION -->
+    <section class="projects" id="projects">
+      <div class="main-title">
+        <div class="sec-title">
+          <span>PORTFOLIO</span>
+          <h2>Projects</h2>
+        </div>
+        <p>FEATURED CASE STUDIES</p>
+      </div>
+      <div class="project-container">
+        <div class="project-card">
+          <img src="assets/img/P-10.png" alt="P-1" loading="lazy" />
+          <h3 class="project-title">USMLE Mastery Programs</h3>
+          <p class="project-description">
+            An Online USMLE Preparation Platform Offering High-Yield Video
+            Lectures, Live Classes, Practice Questions, Study Plans, and Expert
+            Mentorship to Help Medical Students Pass the USMLE Exams.
+          </p>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">USMLE Preparation</span>
+            <span class="tag">Analytics</span>
+            <span class="tag">Educational</span>
+          </div>
+          <div class="buttons">
+            <a href="https://usmlemasteryprograms.com/" class="btn" target="_blank">
+              <img src="assets/svg/external-link.svg" alt="Link" />
+              Live Website
+            </a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="assets/img/P-1.png" alt="P-1" loading="lazy" />
+          <h3 class="project-title">Golikely</h3>
+          <p class="project-description">
+            A Creator Monetization Platform Where Users Generate Affiliate
+            Links, Share Them Across Channels, Track Performance, and Earn
+            Commissions Through Brand Partnerships.
+          </p>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Affiliate Marketing</span>
+            <span class="tag">Analytics</span>
+            <span class="tag">Creator Platform</span>
+          </div>
+          <div class="buttons">
+            <a href="https://www.golikely.com/" class="btn" target="_blank">
+              <img src="assets/svg/external-link.svg" alt="Link" />
+              Live Website
+            </a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="assets/img/P-2.png" alt="P-2" loading="lazy" />
+          <h3 class="project-title">Glocce</h3>
+          <p class="project-description">
+            A Premium Beauty E-commerce Experience Focused on Curated Skincare
+            Collections, Product Discovery, and a Modern Shopping Journey with
+            Sustainability Messaging.
+          </p>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">E-commerce</span>
+            <span class="tag">Beauty</span>
+            <span class="tag">Product Catalog</span>
+          </div>
+          <div class="buttons">
+            <a href="https://www.glocce.com/" class="btn" target="_blank">
+              <img src="assets/svg/external-link.svg" alt="Link" />
+              Live Website
+            </a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="assets/img/P-3.png" alt="P-3" loading="lazy" />
+          <h3 class="project-title">Race LookUp</h3>
+          <p class="project-description">
+            A Custom Web Platform for RaceLookup to List and Promote Sporting
+            Events, Clubs, and Travel Deals with a Clean, Responsive Design.
+          </p>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">bootstrap</span>
+            <span class="tag">PhP</span>
+            <span class="tag">Laravel</span>
+          </div>
+          <div class="buttons">
+            <a href="https://racelookup.com/" class="btn">
+              <img src="assets/svg/external-link.svg" alt="Link" />
+              Live Website
+            </a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="assets/img/P-4.png" alt="P-4" loading="lazy" />
+          <h3 class="project-title">Gem's Harbor</h3>
+          <p class="project-description">
+            A Custom Auction Platform for Buying and Selling Verified Gemstones,
+            Featuring Secure Listings, Bidding, and a Responsive Design.
+          </p>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Bootstrap</span>
+            <span class="tag">Php</span>
+            <span class="tag">Laravel</span>
+          </div>
+          <div class="buttons">
+            <a href="https://gemsharbor.com/" class="btn" target="_blank">
+              <img src="assets/svg/external-link.svg" alt="Link" />
+              Live Website
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="assets/img/P-6.png" alt="P-4" loading="lazy" />
+          <h3 class="project-title">Mesis.pk [School Management]</h3>
+          <p class="project-description">
+            A Custom Educational Portal (Mesis.pk) Featuring Secure User Login,
+            Course Access, and Dashboard in a Clean, Responsive Interface.
+          </p>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Bootstrap</span>
+            <span class="tag">Php</span>
+            <span class="tag">Laravel</span>
+          </div>
+          <div class="buttons">
+            <a href="https://mesis.pk/" class="btn" target="_blank">
+              <img src="assets/svg/external-link.svg" alt="Link" />
+              Live Website
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="assets/img/P-8.png" alt="Bluetic" loading="lazy" />
+          <h3 class="project-title">Bluetic</h3>
+          <p class="project-description">
+            An E-learning Platform Focused on Practical E-commerce Training,
+            Featuring Amazon FBA and Private Label Courses, Student Dashboard
+            Access, and Self-paced Learning Content.
+          </p>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">E-learning</span>
+            <span class="tag">Amazon FBA</span>
+            <span class="tag">Course Platform</span>
+          </div>
+          <div class="buttons">
+            <a href="#" class="btn" target="_blank">
+              <img src="assets/svg/external-link.svg" alt="Link" />
+              Live Website
+            </a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="assets/img/P-9.png" alt="CanMeds" loading="lazy" />
+          <h3 class="project-title">CanMeds Question Bank</h3>
+          <p class="project-description">
+            A Smart Medical Exam Preparation Platform with a comprehensive
+            question bank, adaptive study planning, and real-time performance
+            tracking to help students improve targeted weak areas.
+          </p>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">EdTech</span>
+            <span class="tag">Question Bank</span>
+            <span class="tag">Analytics</span>
+          </div>
+          <div class="buttons">
+            <a href="#" class="btn" target="_blank">
+              <img src="assets/svg/external-link.svg" alt="Link" />
+              Live Website
+            </a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="assets/img/P-5.png" alt="P-4" loading="lazy" />
+          <h3 class="project-title">AceMed Experts</h3>
+          <p class="project-description">
+            A Custom Educational Support Platform for Medical Students, Offering
+            24/7 Help with Quizzes, Assignments, and Exams.
+          </p>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Bootstrap</span>
+            <span class="tag">Php</span>
+            <span class="tag">Laravel</span>
+          </div>
+          <div class="buttons">
+            <a href="#" class="btn" target="_blank">
+              <img src="assets/svg/external-link.svg" alt="Link" />
+              Live Website
+            </a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="assets/img/P-7.png" alt="Link2Audio" loading="lazy" />
+          <h3 class="project-title">Link2Audio</h3>
+          <p class="project-description">
+            A Link-to-MP3 Converter and Downloader that supports multiple
+            platforms, allowing users to quickly convert video or social links
+            into downloadable MP3 audio files.
+          </p>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">MP3 Converter</span>
+            <span class="tag">Downloader</span>
+            <span class="tag">Web Tool</span>
+          </div>
+          <div class="buttons">
+            <a href="#" class="btn" target="_blank">
+              <img src="assets/svg/external-link.svg" alt="Link" />
+              Live Website
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SKILLS SECTION -->
+    <section class="skills" id="skills">
+      <div class="main-title">
+        <div class="sec-title">
+          <span>SKILLS</span>
+          <h2>Skills</h2>
+        </div>
+        <p>I CONSTANTLY TRY TO IMPROVE</p>
+      </div>
+      <div class="tech-stacks">
+        <div class="tech-item">
+          <img
+            src="assets/svg/javascript.svg"
+            alt="JavaScript"
+            loading="lazy"
+          />
+          JavaScript
+        </div>
+        <div class="tech-item">
+          <img src="assets/svg/nodejs.svg" alt="Node.js" loading="lazy" />
+          Node.js
+        </div>
+        <div class="tech-item">
+          <img src="assets/svg/react.svg" alt="React" loading="lazy" />
+          React.js
+        </div>
+        <div class="tech-item">
+          <img src="assets/svg/expressjs.svg" alt="Express.js" loading="lazy" />
+          Express.js
+        </div>
+        <div class="tech-item">
+          <img
+            src="assets/svg/tailwindcss.svg"
+            alt="TailwindCss"
+            loading="lazy"
+          />
+          Tailwind CSS
+        </div>
+        <div class="tech-item">
+          <img src="assets/svg/laravel.svg" alt="Laravel" loading="lazy" />
+          Laravel Blade
+        </div>
+        <div class="tech-item">
+          <img src="assets/svg/mysql.svg" alt="MySql" loading="lazy" />
+          MySql
+        </div>
+        <div class="tech-item">
+          <img src="assets/svg/git.svg" alt="Git" loading="lazy" />
+          Git
+        </div>
+        <div class="tech-item">
+          <img src="assets/svg/github.svg" alt="GitHub" loading="lazy" />
+          GitHub
+        </div>
+        <div class="tech-item">
+          <img src="assets/svg/gitlab.svg" alt="GitLab" loading="lazy" />
+          GitLab
+        </div>
+        <div class="tech-item">
+          <img src="assets/svg/html5.svg" alt="HTML" loading="lazy" />
+          HTML
+        </div>
+        <div class="tech-item">
+          <img src="assets/svg/css3.svg" alt="CSS" loading="lazy" />
+          CSS
+        </div>
+        <div class="tech-item">
+          <img src="assets/svg/bootstrap.svg" alt="Bootstrap" loading="lazy" />
+          Bootstrap
+        </div>
+        <div class="tech-item">
+          <img
+            src="assets/svg/bootstrap-studio.svg"
+            alt="Bootstrap Studio"
+            loading="lazy"
+          />
+          Bootstrap Studio
+        </div>
+        <div class="tech-item">
+          <img src="assets/svg/vscode.svg" alt="VScode" loading="lazy" />
+          VScode
+        </div>
+        <div class="tech-item">
+          <img src="assets/svg/canva.svg" alt="Canva" loading="lazy" />
+          Canva
+        </div>
+        <div class="tech-item">
+          <img src="assets/svg/wordpress.svg" alt="Wordpress" loading="lazy" />
+          Wordpress
+        </div>
+      </div>
+    </section>
+    <!-- MARQUEE -->
+    <marquee
+      onmouseover="this.stop()"
+      onmouseout="this.start()"
+      behavior="stop"
+      direction="left"
+      scrollamount="9"
+    >
+      ✦ INTERACTIVE ✦ SECURE ✦ RELIABLE ✦ ENGAGING ✦ ACCESSIBLE ✦ RESPONSIVE ✦
+      DYNAMIC ✦ SCALABLE ✦ SEARCH OPTIMIZED
+    </marquee>
+    <!-- EDUCATION SECTION -->
+    <section class="education" id="education">
+      <div class="main-title">
+        <div class="sec-title">
+          <span>EDUCATION</span>
+          <h2>Education</h2>
+        </div>
+        <p>ACADEMIC MILESTONES</p>
+      </div>
+      <div class="education-section">
+        <div class="education-container">
+          <i class="ti ti-school"></i>
+          <h3 class="degree">Bachelor Of Computer Science</h3>
+          <p class="date">2022 - 2026</p>
+          <p class="school">
+            University of Engineering and Technology Peshawar
+          </p>
+          <span class="education-line"></span>
+        </div>
+        <div class="education-container">
+          <i class="ti ti-school"></i>
+          <h3 class="degree">Higher Secondary Education (FSC)</h3>
+          <p class="date">2019 - 2021</p>
+          <p class="school">Peshawar Model Degree College</p>
+          <span class="education-line"></span>
+        </div>
+        <div class="education-container">
+          <i class="ti ti-school"></i>
+          <h3 class="degree">Secondary School Education</h3>
+          <p class="date">2017 - 2019</p>
+          <p class="school">Government High School Puran Shangla Kpk</p>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+      <div class="main-title">
+        <div class="sec-title">
+          <span>CONTACT</span>
+          <h2>Contact</h2>
+        </div>
+        <p>GET IN TOUCH</p>
+      </div>
+      <div class="contact-description">
+        <p>
+          I'm Available For Full-time Roles & Freelance Projects.<br />My Inbox
+          Is Always Open,<br />
+          Whether You Have A Question<br />Or<br />Just Want To Say Hi,<br />I'll
+          Try My Best To Get Back To You!
+        </p>
+        <a
+          href="https://wa.me/923478657454"
+          class="contact-btn"
+          target="_blank"
+          rel="noopener"
+        >
+          Let's Chat
+          <i class="ti ti-send-2"></i>
         </a>
       </div>
-      <p class="copyright">
-        &copy; 2026 Zaka Ullah. All Rights Reserved.
-      </p>
-    </div>
-  </footer>
-  <!-- JAVASCRIPT FILES -->
-  <script src="script.js"></script>
-  <script src="assets/js/confetti.js"></script>
-  <script src="assets/js/typed.js"></script>
-  <script>
-    var typed = new Typed('.auto-type', {
-      strings: ['Full Stack Developer', 'React.js Developer', 'Laravel Developer', 'Node.js Developer'],
-      typeSpeed: 40,
-      backSpeed: 40,
-      smartBackspace: true,
-      showCursor: false,
-      loop: true
-    });
-  </script>
-</body>
-
+    </section>
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-links">
+          <a
+            href="https://www.facebook.com/zakatalks"
+            class="footer-icon"
+            data-tooltip="Facebook"
+          >
+            <img src="assets/svg/facebook.png" alt="Facebook" />
+          </a>
+          <a
+            href="https://www.instagram.com/zakara_11?utm_source=ig_web_button_share_sheet&igsh=MXJvN3huenM1MjE0ZA=="
+            class="footer-icon"
+            data-tooltip="Instagram"
+          >
+            <img src="assets/svg/Instagram.png" alt="Instagram" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/engrzakakhan/"
+            class="footer-icon"
+            data-tooltip="GitHub"
+          >
+            <img src="assets/svg/linkedin.png" alt="GitHub" />
+          </a>
+          <a
+            href="https://www.upwork.com/freelancers/~0139c465bc67f85f07?mp_source=share"
+            class="footer-icon"
+            data-tooltip="Gmail"
+          >
+            <img src="assets/svg/upwork.png" alt="Gmail" />
+          </a>
+        </div>
+        <p class="copyright">&copy; 2026 Zaka Ullah. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <!-- JAVASCRIPT FILES -->
+    <script src="script.js"></script>
+    <script src="assets/js/confetti.js"></script>
+    <script src="assets/js/typed.js"></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: [
+          "Full Stack Developer",
+          "React.js Developer",
+          "Laravel Developer",
+          "Node.js Developer",
+        ],
+        typeSpeed: 40,
+        backSpeed: 40,
+        smartBackspace: true,
+        showCursor: false,
+        loop: true,
+      });
+    </script>
+  </body>
 </html>
